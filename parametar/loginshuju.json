@@ -1,0 +1,28 @@
+{
+    "Item": [
+        {
+            "request": {
+                "url": "https://box.lenovo.com/v1/user/login",
+                "bady": {
+                    "user_slug": "826306821@qq.com",
+                    "password": "000000"
+                }
+            },
+            "respons": {
+                "message": "400"
+            }
+        },
+		        {
+            "request": {
+                "url": "https://box.lenovo.com/v1/user/login",
+                "bady": {
+                    "user_slug": "826306821@qq.com",
+                    "password": "      "
+                }
+            },
+            "respons": {
+                "message": "403"
+            }
+        },
+    ]
+}

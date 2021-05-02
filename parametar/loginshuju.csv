@@ -1,0 +1,4 @@
+url,dady,except 
+https://box.lenovo.com/v1/user/login,"{""user_slug"":""826306821@qq.com"",""password"":""000000""}","{""message"":""400""}"
+https://box.lenovo.com/v1/user/login,"{""user_slug"":""826306821@qq.com"",""password"":""""}","{""message"":""403""}"
+https://box.lenovo.com/v1/user/login,"{""user_slug"":"""",""password"":""000000""}","{""message"":""403""}"
